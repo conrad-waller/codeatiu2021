@@ -11,7 +11,7 @@ def pal1(s):
     for i in range(l):
         firstHalf += s[i]
 
-    for j in range(leng(s) - 1, l, -1):
+    for j in range(len(s) - 1, l, -1):
         secHalf += s[j]
 
     return firstHalf == secHalf
